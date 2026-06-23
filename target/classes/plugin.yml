@@ -1,0 +1,20 @@
+name: BambooLandTrees
+version: 1.0.0
+main: com.bambooland.bambolandtrees.BambooLandTrees
+api-version: "1.21.11"
+description: Tala automática de árboles completos con soporte de corteza y árboles grandes
+author: WitherKillx
+
+commands:
+  bltree:
+    description: Activa o desactiva la tala automática de árboles
+    usage: /BLTree <on|off>
+    aliases: [BLTree]
+
+permissions:
+  bambolandtrees.use:
+    description: Permite usar el comando /BLTree
+    default: true
+  bambolandtrees.admin:
+    description: Permisos de administrador del plugin
+    default: op
